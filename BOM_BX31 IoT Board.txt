@@ -1,0 +1,26 @@
+Partlist
+
+Exported from BX31 IoT Board.sch at 07.03.19 00:09
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value                       Device     Package  Library                 Sheet
+
+C1       22u                         C-EUC0805K C0805K   rcl                     1
+C2                                   C-EUC0603K C0603K   rcl                     1
+IC1      CAT24C32             YI-GT3 24C64ST    TSSOP8   microchip               1
+MODULE1  BX3105                      BX3105     BX3105   Sierra BX310x           1
+Q1       BSS138                      BSS123     SOT23    transistor-small-signal 1
+Q2       BSS138                      BSS123     SOT23    transistor-small-signal 1
+Q3       BSS138                      BSS123     SOT23    transistor-small-signal 1
+R1       10k                         R-EU_R0402 R0402    rcl                     1
+R2       10k                         R-EU_R0402 R0402    rcl                     1
+R3       10k                         R-EU_R0402 R0402    rcl                     1
+R4       10k                         R-EU_R0402 R0402    rcl                     1
+R5       10k                         R-EU_R0402 R0402    rcl                     1
+R6       10k                         R-EU_R0402 R0402    rcl                     1
+R7       10k                         R-EU_R0402 R0402    rcl                     1
+R8       10k                         R-EU_R0402 R0402    rcl                     1
+U$1      IOT                         IOT        IOT      IoT Card                1
