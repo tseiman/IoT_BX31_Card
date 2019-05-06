@@ -6,3 +6,5 @@
 *.enum
 *.ps
 *MULTI*
+*.s##
+test_export.*
