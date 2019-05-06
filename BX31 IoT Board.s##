@@ -8171,6 +8171,9 @@ Bluetooth and WiFI Module</text>
 4 (UART0_TXD) &lt;-------------- 13 (RX)  
 5 (UART0_RXD) --------------&gt; 12 (TX) 
 </text>
+<text x="291.084" y="-68.58" size="2.54" layer="94">v1.2</text>
+<text x="129.54" y="35.56" size="1.4224" layer="94" font="fixed">Pull PRG to ground 
+to enable EEPROM write</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="165.1" y="124.46"/>
