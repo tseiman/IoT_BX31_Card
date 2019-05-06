@@ -90,44 +90,44 @@
 <dimension x1="0.6" y1="2.95" x2="0.6" y2="19.35" x3="-4" y3="11.15" textsize="1.27" layer="47" dtype="vertical"/>
 <dimension x1="41.4" y1="21.15" x2="41.4" y2="1.15" x3="52" y3="11.15" textsize="1.27" layer="47" dtype="vertical"/>
 <dimension x1="45" y1="22.3" x2="45" y2="0" x3="55.5" y3="11.15" textsize="1.27" layer="47" dtype="vertical"/>
-<smd name="4" x="2.05" y="6.55" dx="3" dy="0.5" layer="16"/>
-<smd name="37" x="2.5" y="4.55" dx="2.1" dy="0.5" layer="1"/>
-<smd name="36" x="2.5" y="5.35" dx="2.1" dy="0.5" layer="1"/>
-<smd name="35" x="2.5" y="6.15" dx="2.1" dy="0.5" layer="1"/>
-<smd name="34" x="2.5" y="6.95" dx="2.1" dy="0.5" layer="1"/>
-<smd name="33" x="2.5" y="7.75" dx="2.1" dy="0.5" layer="1"/>
-<smd name="32" x="2.5" y="8.55" dx="2.1" dy="0.5" layer="1"/>
-<smd name="31" x="2.6" y="9.35" dx="1.9" dy="0.5" layer="1"/>
-<smd name="30" x="2.05" y="10.15" dx="3" dy="0.5" layer="1"/>
-<smd name="29" x="2.3" y="10.95" dx="2.5" dy="0.5" layer="1"/>
-<smd name="28" x="2.3" y="11.75" dx="2.5" dy="0.5" layer="1"/>
-<smd name="27" x="2.6" y="12.55" dx="1.9" dy="0.5" layer="1"/>
-<smd name="26" x="2.5" y="13.35" dx="2.1" dy="0.5" layer="1"/>
-<smd name="25" x="2.5" y="14.15" dx="2.1" dy="0.5" layer="1"/>
-<smd name="24" x="2.5" y="14.95" dx="2.1" dy="0.5" layer="1"/>
-<smd name="23" x="2.5" y="15.75" dx="2.1" dy="0.5" layer="1"/>
-<smd name="22" x="2.5" y="16.55" dx="2.1" dy="0.5" layer="1"/>
-<smd name="21" x="2.05" y="17.35" dx="3" dy="0.5" layer="1"/>
-<smd name="19" x="2.5" y="18.55" dx="2.1" dy="0.5" layer="16"/>
-<smd name="20" x="2.5" y="18.15" dx="2.1" dy="0.5" layer="1"/>
-<smd name="18" x="2.5" y="17.75" dx="2.1" dy="0.5" layer="16"/>
-<smd name="17" x="2.5" y="16.95" dx="2.1" dy="0.5" layer="16"/>
-<smd name="16" x="2.5" y="16.15" dx="2.1" dy="0.5" layer="16"/>
-<smd name="15" x="2.5" y="15.35" dx="2.1" dy="0.5" layer="16"/>
-<smd name="14" x="2.5" y="14.55" dx="2.1" dy="0.5" layer="16"/>
-<smd name="13" x="2.5" y="13.75" dx="2.1" dy="0.5" layer="16"/>
-<smd name="12" x="2.5" y="12.95" dx="2.1" dy="0.5" layer="16"/>
-<smd name="11" x="2.3" y="12.15" dx="2.5" dy="0.5" layer="16"/>
-<smd name="10" x="2.5" y="11.35" dx="2.1" dy="0.5" layer="16"/>
-<smd name="9" x="2.5" y="10.55" dx="2.1" dy="0.5" layer="16"/>
-<smd name="8" x="2.5" y="9.75" dx="2.1" dy="0.5" layer="16"/>
-<smd name="7" x="2.5" y="8.95" dx="2.1" dy="0.5" layer="16"/>
-<smd name="6" x="2.5" y="8.15" dx="2.1" dy="0.5" layer="16"/>
-<smd name="5" x="2.5" y="7.35" dx="2.1" dy="0.5" layer="16"/>
-<smd name="38" x="2.05" y="3.75" dx="3" dy="0.5" layer="1"/>
-<smd name="3" x="2.5" y="5.75" dx="2.1" dy="0.5" layer="16"/>
-<smd name="2" x="2.5" y="4.95" dx="2.1" dy="0.5" layer="16"/>
-<smd name="1" x="2.3" y="4.15" dx="2.5" dy="0.5" layer="16"/>
+<smd name="4" x="2.05" y="6.55" dx="3" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="37" x="2.5" y="4.55" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="36" x="2.5" y="5.35" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="35" x="2.5" y="6.15" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="34" x="2.5" y="6.95" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="33" x="2.5" y="7.75" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="32" x="2.5" y="8.55" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="31" x="2.6" y="9.35" dx="1.9" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="30" x="2.05" y="10.15" dx="3" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="29" x="2.3" y="10.95" dx="2.5" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="28" x="2.3" y="11.75" dx="2.5" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="27" x="2.6" y="12.55" dx="1.9" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="26" x="2.5" y="13.35" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="25" x="2.5" y="14.15" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="24" x="2.5" y="14.95" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="23" x="2.5" y="15.75" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="22" x="2.5" y="16.55" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="21" x="2.05" y="17.35" dx="3" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="19" x="2.5" y="18.55" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="20" x="2.5" y="18.15" dx="2.1" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="18" x="2.5" y="17.75" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="17" x="2.5" y="16.95" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="16" x="2.5" y="16.15" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="15" x="2.5" y="15.35" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="14" x="2.5" y="14.55" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="13" x="2.5" y="13.75" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="12" x="2.5" y="12.95" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="11" x="2.3" y="12.15" dx="2.5" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="10" x="2.5" y="11.35" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="9" x="2.5" y="10.55" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="8" x="2.5" y="9.75" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="7" x="2.5" y="8.95" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="6" x="2.5" y="8.15" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="5" x="2.5" y="7.35" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="38" x="2.05" y="3.75" dx="3" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="3" x="2.5" y="5.75" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="2" x="2.5" y="4.95" dx="2.1" dy="0.5" layer="16" stop="no" cream="no"/>
+<smd name="1" x="2.3" y="4.15" dx="2.5" dy="0.5" layer="16" stop="no" cream="no"/>
 </package>
 </packages>
 <symbols>
@@ -329,46 +329,7 @@ Cards share a standardized footprint and pinout, with several interfaces to supp
 <smd name="G12" x="6.988" y="4.837" dx="1" dy="1" layer="1"/>
 <smd name="G8" x="6.988" y="6.662" dx="1" dy="1" layer="1"/>
 <smd name="G4" x="6.988" y="8.487" dx="1" dy="1" layer="1"/>
-<polygon width="0" layer="1">
-<vertex x="2.06" y="7.98"/>
-<vertex x="3.06" y="7.98"/>
-<vertex x="3.06" y="9"/>
-<vertex x="2.26" y="9"/>
-<vertex x="2.08" y="8.82"/>
-<vertex x="2.06" y="8.78"/>
-</polygon>
-<smd name="G1" x="2.56" y="8.5" dx="0.5" dy="0.5" layer="1"/>
-<polygon width="0.3048" layer="1">
-<vertex x="3.915" y="8.46"/>
-<vertex x="3.895" y="8.46"/>
-<vertex x="4.175" y="8.46"/>
-</polygon>
-<polygon width="0.127" layer="29" pour="hatch">
-<vertex x="3.0607" y="9.033509375"/>
-<vertex x="2.256790625" y="9.033509375"/>
-<vertex x="2.028190625" y="8.804909375"/>
-<vertex x="2.028190625" y="7.96416875"/>
-<vertex x="2.028190625" y="7.941309375"/>
-<vertex x="3.07848125" y="7.941309375"/>
-<vertex x="3.07848125" y="9.033509375"/>
-</polygon>
-<polygon width="0.127" layer="29" pour="hatch">
-<vertex x="2.2733" y="8.95858125"/>
-<vertex x="2.2733" y="8.9535"/>
-<vertex x="2.98323125" y="8.9535"/>
-<vertex x="2.98323125" y="8.02005"/>
-<vertex x="2.98576875" y="8.02005"/>
-<vertex x="2.98576875" y="8.0264"/>
-<vertex x="2.10185" y="8.0264"/>
-<vertex x="2.10185" y="8.82523125"/>
-<vertex x="2.159" y="8.82523125"/>
-<vertex x="2.159" y="8.117840625"/>
-<vertex x="2.23393125" y="8.117840625"/>
-<vertex x="2.23393125" y="8.12291875"/>
-<vertex x="2.898140625" y="8.12291875"/>
-<vertex x="2.898140625" y="8.898890625"/>
-<vertex x="2.891790625" y="8.898890625"/>
-</polygon>
+<smd name="G1" x="2.5625" y="8.4875" dx="1" dy="1" layer="1"/>
 <wire x1="0.01778125" y1="11.49858125" x2="13.50518125" y2="11.49858125" width="0.127" layer="49"/>
 <wire x1="13.50518125" y1="11.49858125" x2="13.50518125" y2="0" width="0.127" layer="49"/>
 <wire x1="13.50518125" y1="0" x2="0" y2="0" width="0.127" layer="49"/>
@@ -530,10 +491,10 @@ Cards share a standardized footprint and pinout, with several interfaces to supp
 <pin name="MTMS/SD_CLK/HSPICLK" x="66.04" y="15.24" length="middle" rot="R180"/>
 <pin name="MTDI/SD_DATA2/HSPIO" x="66.04" y="17.78" length="middle" rot="R180"/>
 <pin name="MTDO/SD_CMD/HSPICS0" x="66.04" y="20.32" length="middle" rot="R180"/>
-<pin name="UART0_RXD" x="66.04" y="27.94" length="middle" direction="in" rot="R180"/>
-<pin name="UART0_TXD" x="66.04" y="30.48" length="middle" direction="out" rot="R180"/>
-<pin name="UART0_CTS" x="66.04" y="33.02" length="middle" direction="in" rot="R180"/>
-<pin name="UART0_RTS" x="66.04" y="35.56" length="middle" direction="out" rot="R180"/>
+<pin name="UART0_RXD" x="66.04" y="27.94" length="middle" direction="out" rot="R180"/>
+<pin name="UART0_TXD" x="66.04" y="30.48" length="middle" direction="in" rot="R180"/>
+<pin name="UART0_CTS" x="66.04" y="33.02" length="middle" direction="out" rot="R180"/>
+<pin name="UART0_RTS" x="66.04" y="35.56" length="middle" direction="in" rot="R180"/>
 <pin name="VDD_3V3_RF" x="-7.62" y="50.8" length="middle" direction="pwr" rot="R270"/>
 <pin name="VDD_3V3_PA" x="2.54" y="50.8" length="middle" direction="pwr" rot="R270"/>
 <pin name="VDD_PADS_BB" x="12.7" y="50.8" length="middle" direction="pwr" rot="R270"/>
