@@ -1,0 +1,69 @@
+---
+#-------------------------------------------------------------------------------
+# WiFi/Bluetooth IoT card EEPROM content
+#-------------------------------------------------------------------------------
+size: 4096
+content:
+  # iot card descriptor
+  -
+    size: 192
+    content:
+      # header
+      - 0xAA
+      - 0x55
+      # major version
+      - 0x01
+      # minor version
+      - 0x00
+      # vendor name
+      -
+        size: 32
+        fill: 0x00
+        content:
+          - Thomas Schmidt
+      # product name
+      -
+        size: 32
+        fill: 0x00
+        content:
+          - SWI BX3105 WiFi Bluetooth card
+      # hardware major revision
+      - 0x01
+      # hardware minor revision
+      - 0x02
+      # serial number
+      -
+        size: 32
+        fill: 0x00
+        # The serial number is a _DUMMY_ serial number. This field should be filled in differently on each
+        # unit. How this is achieved will depend on the EEPROM programming method that is chosen.
+        content:
+          - "20190506200700_1.2_XXX"
+      # environmental class
+      - 0x41 # 'A'
+      # power category
+      - 2
+      # height category
+      - 1
+      # eeprom write protect
+      - 1
+  # gpio interface descriptor
+  -
+    size: 64
+    content:
+      # type - gpio
+      - 0
+      # GPIO 1 FW_Update - needs to be low for FW update of BX31
+      - 0x05
+      # GPIO 2 unused Input pull-up 
+      - 0x01
+      # GPIO 3 unused Input pull-up
+      - 0x01
+      # GPIO 4 unused Input pull-up
+      - 0x01
+  # uart interface descriptor
+  -
+    size: 64
+    content:
+      # type - uart
+      - 8
