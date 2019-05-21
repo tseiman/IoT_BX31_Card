@@ -13,6 +13,9 @@ The IoT card is easy to use by using the Legato (https://legato.io) AT command i
 After hardware production the EEPROM needs to be one time flashed with the Identity and configuration data of the IoT card.
 Please see the eeprom folder for further information. 
 
+## Basic testing on MangOH
+Ensure that the UART of the WP module is conefigured correctly to handle the IoT module - e.g. by configuring it via `AT!MAPUART=17,1` command on the WP module (please cross check the WP AT User guide).
+Ensure that the GPIO's are set correctly.   On MangOH red this are GPIO 42 for Firmware update and GPIO 2 for enable. The BX31 IoT module supports update of the Firmware over UART by pulling GPIO 42 low (it is a Active Low Pin on BX3105). For normal operation _pull_GPIO_42_high_. To reset the card you need to pull "enable" GPIO 2  High and then pull it down again - so the BX3105 gets enabled.
 
 ## Using it the IoT card in Legato
 
