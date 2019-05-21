@@ -40,7 +40,14 @@ BX3105
 
 OK
 ```
-You can exit microcom by pressing CTR-X.
+You can exit microcom by pressing CTRL-X. Please remember that when typing AT commands you'll not see what you type becasue BX31 are not echoing back. 
+
+You can also read the content of the IoT card EEPROM, by reading it over I2C with i2cdump:
+
+```
+TBD
+```
+
 
 ## Using it the IoT card in Legato
 
