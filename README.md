@@ -15,7 +15,7 @@ Please see the eeprom folder for further information.
 
 ## Basic testing on MangOH
 Ensure that the UART of the WP module is configured correctly to handle the IoT module - e.g. by configuring it via `AT!MAPUART=17,1` command on the WP module (please cross check the WP AT User guide).
-Ensure that the GPIO's are set correctly. On MangOH red this are GPIO 42 for Firmware update and GPIO 2 for enable. The BX31 IoT module supports update of the Firmware over UART by pulling GPIO 42 low (it is a Active Low Pin on BX3105). For normal operation _pull_GPIO_42_high_. To reset the card you need to pull "enable" GPIO 2  High and then pull it down again - so the BX3105 gets enabled.
+**Ensure that the GPIO's are set correctly**. On MangOH red this are GPIO 42 for Firmware update and GPIO 2 for enable. The BX31 IoT module supports update of the Firmware over UART by pulling GPIO 42 low (it is a Active Low Pin on BX3105). For normal operation **pull GPIO42 high (important)**. To reset the card you need to pull "enable" GPIO 2  High and then pull it down again - so the BX3105 gets enabled.
 
 Disable Firmware update GPIO from command line:
 ```
@@ -40,7 +40,7 @@ BX3105
 
 OK
 ```
-You can exit microcom by pressing CTRL-X. Please remember that when typing AT commands you'll not see what you type becasue BX31 are not echoing back. 
+You can exit microcom by pressing **CTRL-X**. Please remember that when typing AT commands you'll not see what you type becasue BX31 are not echoing back. 
 
 You can also read the content of the IoT card EEPROM, by reading it over I2C with i2cdump:
 
