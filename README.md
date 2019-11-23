@@ -27,8 +27,8 @@ Reset the Module:
 ```
 ~# echo 2 >/sys/class/gpio/export
 ~# echo out >/sys/class/gpio/gpio2/direction
-~# echo 1 > /sys/class/gpio/gpio42/value
-~# echo 0 > /sys/class/gpio/gpio42/value
+~# echo 1 > /sys/class/gpio/gpio2/value
+~# echo 0 > /sys/class/gpio/gpio2/value
 ```
 
 Now you can connect to the UART by using microcom and it should react to BX31 AT commands:
